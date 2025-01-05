@@ -1,0 +1,22 @@
+.navbar {
+
+    padding: 1rem;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar-list li a:hover {
+    text-decoration: underline;
+}

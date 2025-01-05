@@ -7,10 +7,12 @@ import Haruka from './haruka/haruka';
 import Akiyama from './akiyama/akiyama';
 import Shinada from './shinada/shinada';
 import Home from './home/home';
+import Navbar from './functions/Navbar'
 
 function App() {
     return (
         <BrowserRouter>
+        <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/kiryu" element={<Kiryu />} />
