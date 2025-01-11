@@ -6,6 +6,7 @@ import Saejima from './saejima/saejima';
 import Haruka from './haruka/haruka';
 import Akiyama from './akiyama/akiyama';
 import Shinada from './shinada/shinada';
+import AllCharacters from './allCharacters/allCharacters';
 import Home from './home/home';
 import Navbar from './functions/Navbar'
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="/haruka" element={<Haruka />} />
               <Route path="/akiyama" element={<Akiyama />} />
               <Route path="/shinada" element={<Shinada />} />
+              <Route path="/allCharacters" element={<AllCharacters />} />
             </Routes>
         </BrowserRouter>
     );
