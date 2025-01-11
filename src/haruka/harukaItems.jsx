@@ -5,21 +5,18 @@ const items = [
       { id: 1.2, name: 'Sub-item 1.2', description: 'Description of Sub-item 1.2' }
     ] },
 
-    { id: 2, name: 'Hostesses', description: 'Description of Item 2', children: [
+    { id: 2, name: 'Minigames', description: 'Description of Item 3', children: [] },
+
+    { id: 3, name: 'Tourist Spots', description: 'Description of Item 2', children: [
+      { id: 3.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
+    ] },
+
+    { id: 4, name: 'Substories', description: 'Description of Item 2', children: [
       { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
     ] },
 
-    { id: 3, name: 'Minigames', description: 'Description of Item 3', children: [] },
-    { id: 4, name: 'Tourist Spots', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
-    ] },
-
-    { id: 5, name: 'Substories', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
-    ] },
-
-    { id: 6, name: 'The Road to Fame', description: 'Haruka\'s Side Story', children: [
-      { id: 2.1, name: 'Dance Battle Stories', descriptions: [
+    { id: 5, name: 'The Road to Fame', description: 'Haruka\'s Side Story', children: [
+      { id: 5.1, name: 'Dance Battle Stories', descriptions: [
         { id: 1, text: 'The first Dance Battle Story is completed during the main story, when you run into Akari.' },
         { id: 2, text: 'The second Dance Battle Story will happen automatically while looking for Christina.' },
         { id: 3, text: 'The third Dance Battle Story will be available when Akari texts you. Go to the Sotenbori footpath behind Zuboraya.' },
@@ -29,7 +26,7 @@ const items = [
 
       ],
       },
-      { id: 2.2, name: 'Job Missions', descriptions: [
+      { id: 5.2, name: 'Job Missions', descriptions: [
         { id: 1, text: 'Idol Handshake Event in Sotenbori 1' },
         { id: 2, text: 'Idol Handshake Event in Sotenbori 2' },
         { id: 3, text: 'PrintCircle with an Idol' },
@@ -82,20 +79,16 @@ const items = [
       }
     ] },
 
-    { id: 7, name: 'Masters', description: 'Description of Item 2', children: [
+    { id: 6, name: 'Masters', description: 'Description of Item 2', children: [
       { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
     ] },
 
-    { id: 8, name: 'Coliseum', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
-    ] },
-
-    { id: 9, name: 'Revelations', description: 'Description of Item 2', children: [
+    { id: 7, name: 'Revelations', description: 'Description of Item 2', children: [
       { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
     ] },
     
-    { id: 10, name: 'IF8R', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
+    { id: 8, name: 'IF8R', description: 'IF8R Battles', children: [
+      { id: 8.1, name: 'Sotenbori Road Battle' }
     ] },
   ];
   

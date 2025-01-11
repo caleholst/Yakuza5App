@@ -83,7 +83,7 @@ const items = [
     ] },
     
     { id: 10, name: 'IF8R', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
+      { id: 2.1, name: 'Nagasugai Road Battle ', description: 'Description of Sub-item 2.1' },
     ] },
   ];
   
