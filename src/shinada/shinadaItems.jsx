@@ -18,8 +18,13 @@ const items = [
       { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
     ] },
 
-    { id: 6, name: 'Taxi Driver', description: 'Description of Item 2', children: [
-      { id: 2.1, name: 'Sub-item 2.1', description: 'Description of Sub-item 2.1' },
+    { id: 6, name: 'The Cost of a Swing', description: 'Description of Item 2', children: [
+      { id: 2.1, name: 'Main Missions',    descriptions: [
+        { id: 1, text: 'Description of Sub-item 2.1' },
+        { id: 2, text: 'Further details about Main Missions' }
+      ],
+      },
+      { id: 2.1, name: 'Side Missions', description: 'Description of Sub-item 2.1' },
     ] },
 
     { id: 7, name: 'Masters', description: 'Description of Item 2', children: [

@@ -13,6 +13,23 @@ const Haruka = () => {
     }));
   };
 
+  const renderItemDescription = (item) => {
+    if (item.description) {
+      // Single description (string)
+      return <p className="item-description">{item.description}</p>;
+    } else if (item.descriptions && Array.isArray(item.descriptions)) {
+      // Multiple descriptions (array of objects)
+      return (
+        <div className="item-descriptions">
+          {item.descriptions.map((desc) => (
+            <p key={desc.id} className="item-description">{desc.text}</p>
+          ))}
+        </div>
+      );
+    }
+    return null;
+  };
+
   const renderItems = (items) => {
     return items.map((item) => (
       <li key={item.id} className="list-item">
@@ -21,7 +38,7 @@ const Haruka = () => {
         </div>
         {openedItems[item.id] && (
           <>
-            <p className="item-description">{item.description}</p>
+            {renderItemDescription(item)} {/* Render the descriptions */}
             {item.children && item.children.length > 0 && (
               <ul className="nested-list">
                 {renderItems(item.children)} {/* Recursive rendering of child items */}
